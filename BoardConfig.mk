@@ -12,4 +12,7 @@ SENSORS_ACCEL_BMA250_INPUT := false
 SENSORS_PROXIMITY_APDS9700 := true
 SENSORS_PRESSURE_BMP180 := false
 
+#Recovery
+TARGET_RECOVERY_INITRC := device/semc/urushi/recovery/init.rc
+
 TARGET_OTA_ASSERT_DEVICE := ST18i,ST18a,urushi
